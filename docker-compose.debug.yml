@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  deblur-gan:
+    image: deblur-gan
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8300:8300

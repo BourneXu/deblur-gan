@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  deblur-gan:
+    image: deblur-gan
+    build: .
+    ports:
+      - 8300:8300
