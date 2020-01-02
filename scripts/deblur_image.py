@@ -54,7 +54,7 @@ class Deblur:
             img = generated[i, :, :, :]
             im = Image.fromarray(img.astype(np.uint8))
             output = io.BytesIO()
-            im.save(output, format="png")
+            im.save(output, format="JPEG")
             output.seek(0)
             return output
 

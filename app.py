@@ -25,9 +25,9 @@ def deblur():
     image = request.get_data()
     return send_file(
         mode.deblurOne(image),
-        mimetype="image/png",
+        mimetype="image/jpg",
         as_attachment=True,
-        attachment_filename="%s.png" % str(datetime.now()),
+        attachment_filename="%s.jpg" % str(datetime.now()),
     )
 
 

@@ -35,7 +35,6 @@ Pillow = "==6.2.0"
 PyWavelets = "==0.5.2"
 PyYAML = "==3.12"
 Werkzeug = "==0.14.1"
-flask = "*"
 
 [requires]
-python_version = "3.6.9"
+python_version = "3.6"
